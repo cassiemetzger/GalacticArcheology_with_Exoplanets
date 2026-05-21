@@ -1,6 +1,7 @@
 import os 
 print("Installing dependencies...")
 os.system("pip install -r requirements.txt")
+os.system("pip install fitsio")
 print("Done!")
 
 import numpy as np
