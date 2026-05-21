@@ -1,9 +1,8 @@
 import os 
 print("Installing dependencies...")
 os.system("pip install -r requirements.txt")
-os.system("pip install fitsio")
 print("Done!")
-
+import time
 import numpy as np
 import matplotlib.pyplot as plt
 import astropy 
@@ -17,7 +16,6 @@ from astropy.coordinates import SkyCoord
 from astroquery.xmatch import XMatch
 from astropy.timeseries import BoxLeastSquares
 from astroquery.sdss import SDSS
-import fitsio
 import pandas as pd
 import multiprocessing
 import time
