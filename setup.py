@@ -2,7 +2,8 @@ import os
 print("Installing dependencies...")
 os.system("pip install -r requirements.txt")
 print("Done!")
-import time
+import warnings
+warnings.filterwarnings("ignore")
 import numpy as np
 import matplotlib.pyplot as plt
 import astropy 
@@ -16,10 +17,15 @@ from astropy.coordinates import SkyCoord
 from astroquery.xmatch import XMatch
 from astropy.timeseries import BoxLeastSquares
 from astroquery.sdss import SDSS
+import fitsio
 import pandas as pd
 import multiprocessing
 import time
 import ipywidgets as widgets
+from dust_extinction.parameter_averages import CCM89, F99
+from synphot import units, config
+from synphot import SourceSpectrum, SpectralElement, Observation, ReddeningLaw
+from synphot.models import BlackBodyNorm1D
 __all__ = [
     "np", 
     "plt", 
@@ -33,7 +39,16 @@ __all__ = [
     "BoxLeastSquares", 
     "SDSS", 
     "pd", 
-    "widgets"
+    "widgets", 
+    "CCM89", 
+    "F99", 
+    "units", 
+    "config", 
+    "SourceSpectrum", 
+    "SpectralElement", 
+    "Observation", 
+    "ReddeningLaw", 
+    "BlackBodyNorm1D"
 
 ]
 # configure matplotlib settings

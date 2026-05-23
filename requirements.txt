@@ -21,6 +21,7 @@ cycler==0.12.1
 debugpy @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_debugpy_1769745020/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
 deepcomparer==0.4.0
+dust_extinction==1.7
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1756729339227/work
 fitsio==1.3.0
 fonttools==4.63.0
@@ -79,6 +80,7 @@ six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_17
 soupsieve==2.8.3
 specutils==2.3.0
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
+synphot==1.7.0
 tornado @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_53i9d3wys5/croot/tornado_1748956943199/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
 traittypes==0.2.3
