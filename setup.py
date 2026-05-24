@@ -206,9 +206,9 @@ def target_star(x1, y1, vt, time):
     # time in days 
     # x1 and y1 are in coordinate units 
     time = time*86400
-    vt = vt
-    x_init = x1 
-    y_init = y1 
+    vt = vt* 100000
+    x_init = x1 * 3E18 
+    y_init = y1 * 3E18 
     xlist = []
     ylist= []
     for val in time: 
