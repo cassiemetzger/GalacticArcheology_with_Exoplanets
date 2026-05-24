@@ -14,7 +14,7 @@ Upon completion of these modules, readers will...
 ## Getting started 
 To get started on these modules, simply follow the commands listed in the <a href="./MODULE1.ipynb"> <code>MODULE1.ipynb</code> </a> file. All dependences and necessary catalogs can be installed by running the first cell.
 
-If you would like to explore more about exoplanet systems, please visit <a href="./MODULE0.ipynb"> <code>MODULE0.ipynb</code> first. 
+If you would like to explore more about exoplanet systems, please visit <a href="./MODULE0.ipynb"> <code>MODULE0.ipynb</code></a> first. 
 
 ## Teaching this module 
 These modules are geared toward an introductory astrophysics student, with minimal, but not extensive coding knowledge. The idea behind this module is to allow an introductory student to draw comparisons between familiar and unfamiliar concepts and use those comparisons to build understanding. 
