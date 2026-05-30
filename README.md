@@ -12,12 +12,12 @@ Upon completion of these modules, readers will...
 3. Gain skills in coding and data analysis that they can apply to other areas of interest (e.g., time series analysis)
 
 ## Getting started 
-To get started on these modules, simply follow the commands listed in the <a href="./MODULE1.ipynb"> <code>MODULE1.ipynb</code> </a> file. All dependences and necessary catalogs can be installed by running the first cell.
+To get started on these modules, simply follow the commands listed at the top of each one. All dependences and necessary catalogs can be installed by running the first cell. 
 
-If you would like to explore more about exoplanet systems, please visit <a href="./MODULE0.ipynb"> <code>MODULE0.ipynb</code></a> first. 
+You should start with <a href="./MODULE1.ipynb"> <code>MODULE1.ipynb</code> </a> (exploring exoplanet systems) and then move to <a href="./MODULE2.ipynb"> <code>MODULE2.ipynb</code> </a> (putting exoplanet systems in the Galactic frame). For an additional exploration of how astronomers explore and discover exoplanets, please visit <a href="./MODULE0.ipynb"> <code>MODULE0.ipynb</code></a> first. 
 
 ## Teaching this module 
 These modules are geared toward an introductory astrophysics student, with minimal, but not extensive coding knowledge. The idea behind this module is to allow an introductory student to draw comparisons between familiar and unfamiliar concepts and use those comparisons to build understanding. 
 
-The solutions this module are accessible <a href ="./MODULE1_ANSKEY"> here</a>.
-A rubric for grading this module is accessible <a href ="./LEARNINGMODULE_RUBRIC.pdf"> here</a>.
+The solutions these module are accessible <a href ="./MODULE1_ANSKEY"> here</a> and  <a href ="./MODULE2_ANSKEY"> here</a> 
+A rubric for grading these modules is accessible <a href ="./LEARNINGMODULE_RUBRIC.pdf"> here</a>. The rubric also consists of additional project ideas for students who want to expand on the content explored in these modules. In general, these modules are designed to be graded on completion. However, see the grading rubric for larger projects that could be assigned. 
